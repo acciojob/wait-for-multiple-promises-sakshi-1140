@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const res = document.getElementById("output");
 
 // Function to create a promise that resolves after a random time between 1 and 3 seconds
@@ -17,7 +16,7 @@ const promises=[
     createRandomPromise('Promise 3'),
 ];
 
-aync function func(){
+async function func(){
 const start=new Date();
 // Adding the loading row
 res.innerHTML+=`
